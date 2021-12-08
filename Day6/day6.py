@@ -1,7 +1,7 @@
 data = open("day06.txt", "r")
 myList = [int(x) for x in data.read().split(",")]
 newList = []
-numDays = 256
+numDays = 80
 count = len(myList)
 
 #Part 1
